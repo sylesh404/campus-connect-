@@ -1,0 +1,36 @@
+{
+  "name": "CampusConnect - Smart Event Management",
+  "short_name": "CampusConnect",
+  "description": "Smart Campus Event Management Platform for students and organizers",
+  "theme_color": "#7400E8",
+  "background_color": "#FAFAF5",
+  "display": "standalone",
+  "orientation": "portrait",
+  "scope": "/",
+  "start_url": "/",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["education", "productivity", "social"],
+  "shortcuts": [
+    {
+      "name": "Browse Events",
+      "short_name": "Events",
+      "description": "View all upcoming events",
+      "url": "/dashboard",
+      "icons": [{ "src": "/favicon.svg", "sizes": "any" }]
+    },
+    {
+      "name": "My History",
+      "short_name": "History",
+      "description": "View your event history",
+      "url": "/my-history",
+      "icons": [{ "src": "/favicon.svg", "sizes": "any" }]
+    }
+  ]
+}
